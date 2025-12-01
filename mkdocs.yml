@@ -9,3 +9,4 @@ nav:
           - Use Case: use_case.md
           - Entity Relationship Diagram: relational_diagram.md
           - architecture: architecture_diagram.md
+          - Data Flow Diagram: data_flow_diagram.md

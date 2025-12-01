@@ -15,7 +15,7 @@
 - Secure signup/login using JWT  
 - Password encryption (bcrypt)  
 - Email verification  
-- Access permissions assigned by role category  
+- Role based Access control 
 - Token validation for protected routes 
 
 
