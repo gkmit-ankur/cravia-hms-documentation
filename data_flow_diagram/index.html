@@ -9,10 +9,8 @@
       
       
       
-        <link rel="prev" href="../requirements/">
+        <link rel="prev" href="../architecture_diagram/">
       
-      
-        <link rel="next" href="../relational_diagram/">
       
       
       <link rel="icon" href="../assets/images/favicon.png">
@@ -20,7 +18,7 @@
     
     
       
-        <title>Use Case - HEALTHCARE MANAGEMENT SYSTEM</title>
+        <title>Data Flow Diagram - HEALTHCARE MANAGEMENT SYSTEM</title>
       
     
     
@@ -61,11 +59,6 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
-        
-        <a href="#bussiness-use-case" class="md-skip">
-          Skip to content
-        </a>
-      
     </div>
     <div data-md-component="announce">
       
@@ -98,7 +91,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Use Case
+              Data Flow Diagram
             
           </span>
         </div>
@@ -276,19 +269,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../use_case/" class="md-nav__link">
         
   
   
@@ -299,7 +283,6 @@
   
 
       </a>
-      
     </li>
   
 
@@ -355,10 +338,17 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../data_flow_diagram/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -369,6 +359,7 @@
   
 
       </a>
+      
     </li>
   
 
@@ -398,8 +389,6 @@
   
   
   
-    
-  
   
 </nav>
                   </div>
@@ -415,61 +404,9 @@
 
 
 
-<h1 id="bussiness-use-case">Bussiness Use case.</h1>
-<p>The Cravia healthcare provides a centralized platform for handling all operations related to health like cure,awareness and booking appointment with the doctors. </p>
-<ul>
-<li>
-<p><strong>Doctor Management</strong>  <br />
-This maintains all the information of the doctor,including their qualifications,specializations, experience, and availability. </p>
-</li>
-<li>
-<p><strong>Appointment Booking System</strong>.<br />
-Paintent can book appointments through the platform by selecting the doctor based on the diseases you are suffering.  </p>
-</li>
-<li>
-<p><strong>Health Education &amp; Awareness</strong>. <br />
-This platform contains educational content about various health topices like how to maintain good health.  </p>
-</li>
-</ul>
-<h1 id="functional-use-case">Functional Use Case</h1>
-<p>This section describes the key use cases of the <strong>Healthcare Management System</strong>, outlining the actors, goals and main flows for each major function.</p>
-<hr />
-<h3 id="uc-01-patient-register-login">UC-01: Patient — Register &amp; Login</h3>
-<p><strong>Actor:</strong> Patient<br />
-<strong>Goal:</strong> Create account and access patient features.<br />
-<strong>Flow:</strong> Signup → Email verification → Login (JWT issued).</p>
-<h3 id="uc-02-patient-search-view-doctors">UC-02: Patient — Search &amp; View Doctors</h3>
-<p><strong>Actor:</strong> Patient<br />
-<strong>Goal:</strong> Find a doctor by name, specialty, or clinic.<br />
-<strong>Flow:</strong> Search → View doctor profile → See clinic assignments &amp; available slots.</p>
-<h3 id="uc-03-patient-book-appointment">UC-03: Patient — Book Appointment</h3>
-<p><strong>Actor:</strong> Patient<br />
-<strong>Goal:</strong> Book a slot with a doctor at a clinic.<br />
-<strong>Flow:</strong> Select doctor → Select clinic → Select available slot → Confirm booking → Notifications sent.</p>
-<h3 id="uc-04-patient-cancel-reschedule-appointment">UC-04: Patient — Cancel / Reschedule Appointment</h3>
-<p><strong>Actor:</strong> Patient<br />
-<strong>Goal:</strong> Cancel or change a booked appointment.<br />
-<strong>Flow:</strong> Choose appointment → Cancel/Reschedule → System enforces cancellation policy → Update status &amp; notify doctor.</p>
-<h3 id="uc-05-doctor-view-day-wise-appointments">UC-05: Doctor — View Day-wise Appointments</h3>
-<p><strong>Actor:</strong> Doctor<br />
-<strong>Goal:</strong> See all appointments for a date.<br />
-<strong>Flow:</strong> Open schedule → Select date → System lists appointments (time, patient, notes).</p>
-<h3 id="uc-06-doctor-cancel-appointment">UC-06: Doctor — Cancel Appointment</h3>
-<p><strong>Actor:</strong> Doctor<br />
-<strong>Goal:</strong> Cancel an appointment (e.g., emergency).<br />
-<strong>Flow:</strong> Select appointment → Cancel with reason → System notifies patient.</p>
-<h3 id="uc-07-admin-add-clinic">UC-07: Admin — Add Clinic</h3>
-<p><strong>Actor:</strong> Admin<br />
-<strong>Goal:</strong> Make a clinic available in the system.<br />
-<strong>Flow:</strong> Create clinic record → Clinic visible for doctor assignment and patient search.</p>
-<h3 id="uc-08-admin-add-deactivate-doctor">UC-08: Admin — Add / Deactivate Doctor</h3>
-<p><strong>Actor:</strong> Admin<br />
-<strong>Goal:</strong> Add new doctors and manage their active status.<br />
-<strong>Flow:</strong> Create doctor profile → Assign clinic(s) → Optionally deactivate → System blocks new bookings if deactivated.</p>
-<hr />
-<h2 id="conclusion">Conclusion</h2>
-<p>Cravia Healthcare represents the future of digital healthcare — merging accessibility, education, and personalized medical services in one platform.<br />
-By connecting patients and doctors directly, it encourages <strong>better health management</strong>, <strong>early diagnosis</strong>, and <strong>greater health awareness</strong>.</p>
+  <h1>Data Flow Diagram</h1>
+
+<p><img alt="AWS" src="../images/dfd.png" /></p>
 
 
 
