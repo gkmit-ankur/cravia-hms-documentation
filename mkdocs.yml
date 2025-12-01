@@ -1,0 +1,11 @@
+site_name: HEALTHCARE MANAGEMENT SYSTEM
+theme:
+  name: material
+
+nav:
+  - Home: index.md
+  - Requirements: 
+          - Functional Requirements: requirements.md
+          - Use Case: use_case.md
+          - Entity Relationship Diagram: relational_diagram.md
+          - architecture: architecture_diagram.md
