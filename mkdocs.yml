@@ -7,6 +7,9 @@ nav:
   - Requirements: 
           - Functional Requirements: requirements.md
           - Use Case: use_case.md
+          - Tech Stack: tech_stack.md
           - Entity Relationship Diagram: relational_diagram.md
-          - architecture: architecture_diagram.md
+          - Architecture: architecture_diagram.md
           - Data Flow Diagram: data_flow_diagram.md
+          - Test plan: test_plan.md
+          

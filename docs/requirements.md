@@ -8,7 +8,6 @@
 | FR-2 | Doctor Management| Admin manages doctor accounts, availability, and status |
 | FR-3 | clinic Management| Fetch and display detail of clinic data  |
 | FR-4 | Appointments Management | Patients book/manage appointments; doctors view/manage schedules |
-| FR-5 | Health Education & Articles | Stores health related articles like good nurtition |
 
 
 ## **FR-1: Authentication**
@@ -57,14 +56,6 @@
 - Notifications for status updates 
 
 
-## **FR-5: Health Education & Articles**
-### Doctors
-- Publish articles on nutrition, disease prevention, mental health, etc.  
-- Edit and delete previously posted articles  
-
-### Patient
-- Browse and read health education articles  
-- Search articles by category 
 
 ---
 

@@ -8,8 +8,7 @@ This maintains all the information of the doctor,including their qualifications,
 - **Appointment Booking System**.  
 Paintent can book appointments through the platform by selecting the doctor based on the diseases you are suffering.  
 
-- **Health Education & Awareness**.   
-This platform contains educational content about various health topices like how to maintain good health.  
+  
 
 # Functional Use Case
 
@@ -23,8 +22,8 @@ This section describes the key use cases of the **Healthcare Management System**
 
 ### UC-02: Patient — Search & View Doctors
 **Actor:** Patient  
-**Goal:** Find a doctor by name, specialty, or clinic.  
-**Flow:** Search → View doctor profile → See clinic assignments & available slots.
+**Goal:** Find a doctor by name, clinic.  
+**Flow:** Search → View doctor profile → See clinic  & available slots.
 
 ### UC-03: Patient — Book Appointment
 **Actor:** Patient  
