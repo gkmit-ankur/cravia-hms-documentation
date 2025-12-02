@@ -9,10 +9,8 @@
       
       
       
-        <link rel="prev" href="../architecture_diagram/">
+        <link rel="prev" href="../data_flow_diagram/">
       
-      
-        <link rel="next" href="../test_plan/">
       
       
       <link rel="icon" href="../assets/images/favicon.png">
@@ -20,7 +18,7 @@
     
     
       
-        <title>Data Flow Diagram - HEALTHCARE MANAGEMENT SYSTEM</title>
+        <title>Test plan - HEALTHCARE MANAGEMENT SYSTEM</title>
       
     
     
@@ -61,6 +59,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#test-cases" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -93,7 +96,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Data Flow Diagram
+              Test plan
             
           </span>
         </div>
@@ -363,17 +366,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../data_flow_diagram/" class="md-nav__link">
         
   
   
@@ -384,7 +380,6 @@
   
 
       </a>
-      
     </li>
   
 
@@ -394,10 +389,32 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../test_plan/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Test plan
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -408,6 +425,143 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-user-signup-jwt-bcrypt" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. User Signup (JWT + bcrypt)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-login-authentication" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Login Authentication
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-rbac-unauthorized-access-block" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. RBAC – Unauthorized Access Block
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-add-doctor-admin-only" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Add Doctor (Admin Only)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-doctor-deactivation" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Doctor Deactivation
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-add-clinic" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. Add Clinic
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-search-doctor-view-slots" class="md-nav__link">
+    <span class="md-ellipsis">
+      7. Search Doctor &amp; View Slots
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-create-slot-lock" class="md-nav__link">
+    <span class="md-ellipsis">
+      8. Create Slot Lock
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#9-confirm-booking" class="md-nav__link">
+    <span class="md-ellipsis">
+      9. Confirm Booking
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#10-prevent-double-booking" class="md-nav__link">
+    <span class="md-ellipsis">
+      10. Prevent Double Booking
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#11-cancel-appointment-patient" class="md-nav__link">
+    <span class="md-ellipsis">
+      11. Cancel Appointment (Patient)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#12-doctor-day-wise-appointment-view" class="md-nav__link">
+    <span class="md-ellipsis">
+      12. Doctor Day-wise Appointment View
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#13-token-expired-access" class="md-nav__link">
+    <span class="md-ellipsis">
+      13. Token Expired Access
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -437,6 +591,133 @@
   
   
   
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-user-signup-jwt-bcrypt" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. User Signup (JWT + bcrypt)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-login-authentication" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Login Authentication
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-rbac-unauthorized-access-block" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. RBAC – Unauthorized Access Block
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-add-doctor-admin-only" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Add Doctor (Admin Only)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-doctor-deactivation" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Doctor Deactivation
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-add-clinic" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. Add Clinic
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-search-doctor-view-slots" class="md-nav__link">
+    <span class="md-ellipsis">
+      7. Search Doctor &amp; View Slots
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-create-slot-lock" class="md-nav__link">
+    <span class="md-ellipsis">
+      8. Create Slot Lock
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#9-confirm-booking" class="md-nav__link">
+    <span class="md-ellipsis">
+      9. Confirm Booking
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#10-prevent-double-booking" class="md-nav__link">
+    <span class="md-ellipsis">
+      10. Prevent Double Booking
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#11-cancel-appointment-patient" class="md-nav__link">
+    <span class="md-ellipsis">
+      11. Cancel Appointment (Patient)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#12-doctor-day-wise-appointment-view" class="md-nav__link">
+    <span class="md-ellipsis">
+      12. Doctor Day-wise Appointment View
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#13-token-expired-access" class="md-nav__link">
+    <span class="md-ellipsis">
+      13. Token Expired Access
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -452,10 +733,125 @@
 
 
 
-  <h1>Data Flow Diagram</h1>
-
-<p><img alt="AWS" src="../images/dfd_l0.png" />
-<img alt="AWS" src="../images/dfd_l1.png" /></p>
+<h1 id="test-cases">Test Cases</h1>
+<hr />
+<h2 id="1-user-signup-jwt-bcrypt">1. User Signup (JWT + bcrypt)</h2>
+<p><strong>Precondition:</strong> None<br />
+<strong>Steps:</strong><br />
+- Submit signup form with valid information<br />
+- Verify email<br />
+<strong>Expected Result:</strong><br />
+- User account created<br />
+- Password hashed<br />
+- Email verification required<br />
+<strong>Priority:</strong> High</p>
+<hr />
+<h2 id="2-login-authentication">2. Login Authentication</h2>
+<p><strong>Precondition:</strong> Verified user exists<br />
+<strong>Steps:</strong><br />
+- Login with correct credentials<br />
+<strong>Expected Result:</strong><br />
+- JWT returned with user ID and role<br />
+<strong>Priority:</strong> High</p>
+<hr />
+<h2 id="3-rbac-unauthorized-access-block">3. RBAC – Unauthorized Access Block</h2>
+<p><strong>Precondition:</strong> Patient logged in<br />
+<strong>Steps:</strong><br />
+- Patient tries accessing admin-only route<br />
+<strong>Expected Result:</strong><br />
+- API returns 403 Forbidden<br />
+<strong>Priority:</strong> High</p>
+<hr />
+<h2 id="4-add-doctor-admin-only">4. Add Doctor (Admin Only)</h2>
+<p><strong>Precondition:</strong> Admin authenticated<br />
+<strong>Steps:</strong><br />
+- Admin submits doctor details<br />
+<strong>Expected Result:</strong><br />
+- Doctor profile created<br />
+<strong>Priority:</strong> High</p>
+<hr />
+<h2 id="5-doctor-deactivation">5. Doctor Deactivation</h2>
+<p><strong>Precondition:</strong> Doctor has future appointments<br />
+<strong>Steps:</strong><br />
+- Admin deactivates doctor<br />
+<strong>Expected Result:</strong><br />
+- New bookings blocked<br />
+- Future appointment patients notified<br />
+<strong>Priority:</strong> High</p>
+<hr />
+<h2 id="6-add-clinic">6. Add Clinic</h2>
+<p><strong>Precondition:</strong> Admin authenticated<br />
+<strong>Steps:</strong><br />
+- Admin adds a clinic<br />
+<strong>Expected Result:</strong><br />
+- Clinic visible in search and assignment<br />
+<strong>Priority:</strong> High</p>
+<hr />
+<h2 id="7-search-doctor-view-slots">7. Search Doctor &amp; View Slots</h2>
+<p><strong>Precondition:</strong> Doctors, clinics, and slots exist<br />
+<strong>Steps:</strong><br />
+- Patient searches for doctor<br />
+- Patient views available slots<br />
+<strong>Expected Result:</strong><br />
+- Active doctors &amp; clinics shown<br />
+- Available slots displayed<br />
+<strong>Priority:</strong> High</p>
+<hr />
+<h2 id="8-create-slot-lock">8. Create Slot Lock</h2>
+<p><strong>Precondition:</strong> Slot available<br />
+<strong>Steps:</strong><br />
+- Patient selects a slot<br />
+<strong>Expected Result:</strong><br />
+- Slot locked<br />
+- Other users cannot select same slot<br />
+<strong>Priority:</strong> High</p>
+<hr />
+<h2 id="9-confirm-booking">9. Confirm Booking</h2>
+<p><strong>Precondition:</strong> Slot lock exists<br />
+<strong>Steps:</strong><br />
+- Patient confirms booking<br />
+<strong>Expected Result:</strong><br />
+- Appointment created<br />
+- Slot marked as booked<br />
+- Lock removed<br />
+- Notifications sent<br />
+<strong>Priority:</strong> High</p>
+<hr />
+<h2 id="10-prevent-double-booking">10. Prevent Double Booking</h2>
+<p><strong>Precondition:</strong> Two users attempt same slot<br />
+<strong>Steps:</strong><br />
+- Both try to book simultaneously<br />
+<strong>Expected Result:</strong><br />
+- One booking succeeds<br />
+- Other receives conflict (409)<br />
+<strong>Priority:</strong> High</p>
+<hr />
+<h2 id="11-cancel-appointment-patient">11. Cancel Appointment (Patient)</h2>
+<p><strong>Precondition:</strong> Active appointment exists<br />
+<strong>Steps:</strong><br />
+- Patient cancels appointment<br />
+<strong>Expected Result:</strong><br />
+- Status becomes Cancelled<br />
+- Slot becomes available<br />
+- Doctor notified<br />
+<strong>Priority:</strong> High</p>
+<hr />
+<h2 id="12-doctor-day-wise-appointment-view">12. Doctor Day-wise Appointment View</h2>
+<p><strong>Precondition:</strong> Doctor has scheduled appointments<br />
+<strong>Steps:</strong><br />
+- Doctor checks schedule for a specific date<br />
+<strong>Expected Result:</strong><br />
+- All appointments listed<br />
+<strong>Priority:</strong> High</p>
+<hr />
+<h2 id="13-token-expired-access">13. Token Expired Access</h2>
+<p><strong>Precondition:</strong> Expired JWT<br />
+<strong>Steps:</strong><br />
+- Call protected API with expired token<br />
+<strong>Expected Result:</strong><br />
+- System returns 401 Unauthorized<br />
+<strong>Priority:</strong> High</p>
+<hr />
 
 
 
